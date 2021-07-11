@@ -4,7 +4,14 @@
 - Mobile testing demo
 - Api testing demo
 
+## Running with remote driver
+
+
 ## Test cases
+
+`docker-compose up`
+
+`mvn verify -Dwebdriver.remote.url=http://localhost:4444/wd/hub -Dwebdriver.remote.driver=chrome`
 
 - Web 
 
